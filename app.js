@@ -38,8 +38,8 @@ const game = () => {
         setTimeout(() => {
           compareHands(this.textContent, computerChoise);
           //update images
-          playerHand.src = `../assets/${this.textContent}.png`;
-          computerHand.src = ` ../assets/${computerChoise}.png`;
+          playerHand.src = `../rps.github.io/assets/${this.textContent}.png`;
+          computerHand.src = `../rps.github.ioassets/${computerChoise}.png`;
         }, 2000);
 
         playerHand.style.animation = "shakePlayer 2s ease";
