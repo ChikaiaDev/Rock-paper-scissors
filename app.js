@@ -39,7 +39,7 @@ const game = () => {
           compareHands(this.textContent, computerChoise);
           //update images
           playerHand.src = `../rps.github.io/assets/${this.textContent}.png`;
-          computerHand.src = `../rps.github.ioassets/${computerChoise}.png`;
+          computerHand.src = `../rps.github.io/assets/${computerChoise}.png`;
         }, 2000);
 
         playerHand.style.animation = "shakePlayer 2s ease";
